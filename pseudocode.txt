@@ -1,0 +1,27 @@
+Start
+    Input Golongan, jam Lembur
+
+        If Golongan = "A" Then
+            Gaji_Pokok = 5000000
+        Else If Golongan = "B" Then
+            Gaji_Pokok = 6500000
+        Else If Golongan = "C" Then
+            Gaji_Pokok = 9500000
+            End If
+
+        Select Case Jam Lembur
+            Case 1:
+                Gaji_Lembur = Gaji_Pokok * 0.30
+            Case 2 :
+                Gaji_Lembur = Gaji_Pokok * 0.32
+            Case 3 :
+                Gaji_Lembur = Gaji_Pokok * 0.34
+            Case 4 :
+                Gaji_Lembur = Gaji_Pokok * 0.36
+            Case 5 :
+                Gaji_Lembur = Gaji_Pokok * 0.38
+End Select
+
+TotaL_Penghasilan = Gaji_Pokok + Gaji_Lembur
+Output TotaL_Penghasilan
+End
